@@ -19,14 +19,35 @@ body{
 }
 .header{
     grid-area: header;
-    background-color: #052694;
+    background-color:teal;
     color: #ffffff;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+.brand a{
+    color: white;
+    font-size: 2.5 rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+.header-links a{
+    color: white;
+    text-decoration: none;
+}
+.header-links a:hover{
+    color: turquoise;
+}
+.brand a:hover{
+    color: turquoise;
 }
 .main{
     grid-area: main;
 }
 .footer{
     grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
